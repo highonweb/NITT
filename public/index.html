@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>NITT</title>
+</head>
+<body>
+    <div class="add" onclick="openadd(this)" ><i class="fas fa-plus"></i></div>
+    <div class="update">
+        <div class="col">
+            <input class="input" type="text" placeholder="Name" id="name"><br>
+            <input class="input" type="text" placeholder="Roll no." id="roll"><br>
+            <input class="input" type="text" placeholder="Department" id="dept"><br>
+            <button id="submit" onclick="register()">Submit</button>
+        </div>
+        
+    </div>
+    <div class="main">
+        <img class="logo" src="img/nitt.png" alt="">
+    <div class="search">
+        <input class="sbar" onkeyup="autoc()" type="text" id="search">
+        <button class="sbtn" onclick="clicksear()"><i class="fas fa-search"></i></button>
+        
+    </div>
+    <div class="ac"></div>
+    <div class="card">
+       <div class = deets></div>
+    <button id="submit" class="del">Delete</button> &nbsp;<button id="submit" class="upd" >Update</button>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/c5b9bcd338.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

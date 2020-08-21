@@ -1,0 +1,4 @@
+Creating an api (autocomplete feature while searching)
+Create an API to add, update and delete name and roll numbers of people at NITT.
+Add support for search by roll no and name along with autocomplete suggestions using AJAX. (https://imgur.com/a/JMwObkT)
+Add support to find out the department for a given roll number.
